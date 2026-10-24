@@ -1,0 +1,64 @@
+:root {
+  /* Color Palette - Sampled from Reference */
+  --primary-purple: #583BFF;
+  --bright-purple: #6947FF;
+  --primary-purple-hover: #492de0;
+  --deep-navy: #10182F;
+  --dark-hero-bg: #101A30;
+  --main-white: #FFFFFF;
+  --light-bg: #F5F7FC;
+  --light-lavender: #EEEAFE;
+  --light-lavender-hover: #e2dcfe;
+  --primary-text: #111827;
+  --secondary-text: #68738A;
+  --border-color: #E5E9F2;
+  --border-focus: #583BFF;
+  --success-green: #20A66A;
+  --success-light: #E8F7F0;
+  --warning-amber: #F59E0B;
+  --warning-light: #FEF3C7;
+  --error-red: #F04452;
+  --error-light: #FEECEE;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-hero: clamp(2.25rem, 5vw, 3.5rem);
+  --font-h1: 2.25rem;
+  --font-h2: 1.75rem;
+  --font-h3: 1.25rem;
+  --font-h4: 1.1rem;
+  --font-body: 0.95rem;
+  --font-small: 0.85rem;
+  --font-xs: 0.75rem;
+
+  /* Spacing Scale */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  /* Shadows - Subtle & Realistic */
+  --shadow-sm: 0 1px 3px rgba(16, 24, 47, 0.05);
+  --shadow-md: 0 4px 14px rgba(16, 24, 47, 0.07);
+  --shadow-lg: 0 10px 28px rgba(16, 24, 47, 0.10);
+  --shadow-card-hover: 0 8px 24px rgba(88, 59, 255, 0.12);
+
+  /* Layout Containers */
+  --max-width: 1240px;
+  --navbar-height: 72px;
+  --player-height: 80px;
+
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.25s ease;
+}
